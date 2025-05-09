@@ -636,7 +636,7 @@ const Home = () => {
       <footer className="bg-[#3a5a40] text-white py-8 px-4">
         <div className="container mx-auto text-center">
           <p>
-            © {new Date().getFullYear()} Relax Massage Therapy. All rights
+            © {new Date().getFullYear()} MarleneWellnes. All rights
             reserved.
           </p>
           <p className="mt-2 text-sm opacity-75">
