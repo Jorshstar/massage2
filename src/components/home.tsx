@@ -453,175 +453,153 @@ const Home = () => {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-white">
-        <div className="container mx-auto">
-          <motion.h2
-            className="text-3xl md:text-4xl font-bold mb-12 text-center text-[#3a5a40]"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            Get In Touch
-          </motion.h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-              className="bg-[#f8f4f0] p-8 rounded-lg shadow-lg"
+<section id="contact" className="py-16 md:py-20 px-4 bg-white">
+  <div className="container mx-auto max-w-4xl px-4">
+    <motion.h2
+      className="text-2xl md:text-4xl font-bold mb-8 md:mb-12 text-center text-[#3a5a40]"
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.6 }}
+    >
+      Get In Touch
+    </motion.h2>
+    <div className="flex flex-col md:grid md:grid-cols-2 gap-8 md:gap-12">
+      {/* Contact Information Box - Adjusted for better mobile centering */}
+      <motion.div
+        initial={{ opacity: 0, x: -30 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="bg-[#f8f4f0] p-5 md:p-8 rounded-lg shadow-lg mx-auto w-full max-w-md md:max-w-none"
+      >
+        <h3 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6 text-[#588157]">
+          Contact Information
+        </h3>
+        <div className="space-y-3 md:space-y-4">
+          <p className="flex items-center text-sm md:text-base">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 md:h-6 md:w-6 mr-2 md:mr-3 text-[#588157]"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <h3 className="text-2xl font-semibold mb-6 text-[#588157]">
-                Contact Information
-              </h3>
-              <div className="space-y-4">
-                <p className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 mr-3 text-[#588157]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    />
-                  </svg>
-                  <span>(555) 123-4567</span>
-                </p>
-                <p className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 mr-3 text-[#588157]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    />
-                  </svg>
-                  <span>info@marlenewellnessmassage.com</span>
-                </p>
-                
-              </div>
-              
-              <div className="mt-8">
-                <h4 className="text-xl font-semibold mb-4 text-[#588157]">
-                  Follow Me
-                </h4>
-                <div className="flex space-x-4">
-                <a
-                    href="#"
-                    className="text-[#588157] hover:text-[#3a5a40] transition-colors"
-                  >
-                    <FaFacebook className="h-6 w-6" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-[#588157] hover:text-[#3a5a40] transition-colors"
-                  >
-                    <FaTelegram className="h-6 w-6" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-[#588157] hover:text-[#3a5a40] transition-colors"
-                  >
-                    <FaTiktok className="h-6 w-6" />
-                  </a>
-                  <a
-                    href="#"
-                    className="text-[#588157] hover:text-[#3a5a40] transition-colors"
-                  >
-                    <FaInstagram className="h-6 w-6" />
-                  </a>
-                  
-                </div>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6, delay: 0.2 }}
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+              />
+            </svg>
+            <span>(555) 123-4567</span>
+          </p>
+          <p className="flex items-center text-sm md:text-base">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5 md:h-6 md:w-6 mr-2 md:mr-3 text-[#588157]"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
-              <form className="space-y-6">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div>
-                    <label
-                      htmlFor="name"
-                      className="block text-sm font-medium text-gray-700 mb-1"
-                    >
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div>
-                    <label
-                      htmlFor="email"
-                      className="block text-sm font-medium text-gray-700 mb-1"
-                    >
-                      Email
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                      placeholder="Your email"
-                    />
-                  </div>
-                </div>
-                <div>
-                  <label
-                    htmlFor="subject"
-                    className="block text-sm font-medium text-gray-700 mb-1"
-                  >
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    id="subject"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                    placeholder="Subject"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="message"
-                    className="block text-sm font-medium text-gray-700 mb-1"
-                  >
-                    Message
-                  </label>
-                  <textarea
-                    id="message"
-                    rows={5}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition"
-                    placeholder="Your message"
-                  ></textarea>
-                </div>
-                <button
-                  type="submit"
-                  className="w-full px-6 py-3 bg-[#588157] text-white rounded-md hover:bg-[#3a5a40] transition-colors duration-300 shadow-md"
-                >
-                  Send Message
-                </button>
-              </form>
-            </motion.div>
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              />
+            </svg>
+            <span>info@marlenewellnessmassage.com</span>
+          </p>
+        </div>
+        
+        <div className="mt-6 md:mt-8">
+          <h4 className="text-lg md:text-xl font-semibold mb-3 md:mb-4 text-[#588157]">
+            Follow Me
+          </h4>
+          <div className="flex space-x-3 md:space-x-4">
+            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+              <FaFacebook className="h-5 w-5 md:h-6 md:w-6" />
+            </a>
+            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+              <FaTelegram className="h-5 w-5 md:h-6 md:w-6" />
+            </a>
+            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+              <FaTiktok className="h-5 w-5 md:h-6 md:w-6" />
+            </a>
+            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+              <FaInstagram className="h-5 w-5 md:h-6 md:w-6" />
+            </a>
           </div>
         </div>
-      </section>
+      </motion.div>
+      
+      {/* Contact Form - Adjusted for better mobile centering */}
+      <motion.div
+        initial={{ opacity: 0, x: 30 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.2 }}
+        className="w-full max-w-md md:max-w-none mx-auto"
+      >
+        <form className="space-y-4 md:space-y-6 w-full">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-6">
+            <div>
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                className="w-full px-3 py-2 md:px-4 md:py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition text-sm md:text-base"
+                placeholder="Your name"
+              />
+            </div>
+            <div>
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                Email
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="w-full px-3 py-2 md:px-4 md:py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition text-sm md:text-base"
+                placeholder="Your email"
+              />
+            </div>
+          </div>
+          <div>
+            <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-1">
+              Subject
+            </label>
+            <input
+              type="text"
+              id="subject"
+              className="w-full px-3 py-2 md:px-4 md:py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition text-sm md:text-base"
+              placeholder="Subject"
+            />
+          </div>
+          <div>
+            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">
+              Message
+            </label>
+            <textarea
+              id="message"
+              rows={4}
+              className="w-full px-3 py-2 md:px-4 md:py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#588157] focus:border-transparent transition text-sm md:text-base"
+              placeholder="Your message"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            className="w-full px-4 py-2 md:px-6 md:py-3 bg-[#588157] text-white rounded-md hover:bg-[#3a5a40] transition-colors duration-300 shadow-md text-sm md:text-base"
+          >
+            Send Message
+          </button>
+        </form>
+      </motion.div>
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="bg-[#3a5a40] text-white py-8 px-4">
