@@ -234,7 +234,7 @@ const Home = () => {
               transition={{ duration: 0.6 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=800&q=80"
+                src="/images/gallery/marwell2.jpg"
                 alt="Massage Therapist"
                 className="rounded-lg shadow-xl w-full h-auto"
               />
@@ -280,7 +280,7 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Our Services
+            My Services
           </motion.h2>
           <div className="flex flex-col space-y-8">
             {services.map((service, index) => (
@@ -314,7 +314,7 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            My Gallery
+            Behind the Scenes
           </motion.h2>
           <div className="flex flex-wrap justify-center gap-4">
             {/* Image 1 */}
