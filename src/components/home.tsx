@@ -518,16 +518,16 @@ const Home = () => {
             Follow Me
           </h4>
           <div className="flex space-x-3 md:space-x-4">
-            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+            <a href="https://facebook.com/marlenewellness" className="text-[#588157] hover:text-[#3a5a40] transition-colors" title="Follow me on Facebook">
               <FaFacebook className="h-5 w-5 md:h-6 md:w-6" />
             </a>
-            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+            <a href="https://t.me/marlenewellness" className="text-[#588157] hover:text-[#3a5a40] transition-colors" title="Follow me on Telegram">
               <FaTelegram className="h-5 w-5 md:h-6 md:w-6" />
             </a>
-            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+            <a href="https://www.tiktok.com/@marlenewellness?_t=ZM-8wDP9RtJ9uQ&_r=1" className="text-[#588157] hover:text-[#3a5a40] transition-colors" title="Follow me on TikTok">
               <FaTiktok className="h-5 w-5 md:h-6 md:w-6" />
             </a>
-            <a href="#" className="text-[#588157] hover:text-[#3a5a40] transition-colors">
+            <a href="https://www.instagram.com/marlenewellness?igsh=OXEzZndmOGI3bTQy" className="text-[#588157] hover:text-[#3a5a40] transition-colors" title="Follow me on Instagram">
               <FaInstagram className="h-5 w-5 md:h-6 md:w-6" />
             </a>
           </div>
