@@ -124,16 +124,7 @@ const Home = () => {
       bookingLink: "#contact",
       isReversed: false,
     },
-    {
-      id: 10,
-      name: "Custom Massage",
-      description:
-        "A personalized blend of techniques tailored to your specific needs and preferences. Our experienced therapists will consult with you to understand your concerns and create a unique treatment plan. This adaptable approach ensures you receive exactly the care your body requires for optimal wellness.",
-      image:
-        "https://images.unsplash.com/photo-1519415943484-9fa1873496d4?w=800&q=80",
-      bookingLink: "#contact",
-      isReversed: true,
-    },
+    
   ];
 
   // Testimonials data
