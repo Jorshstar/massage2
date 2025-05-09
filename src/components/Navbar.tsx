@@ -7,7 +7,7 @@ interface NavbarProps {
   brandName?: string;
 }
 
-const Navbar = ({ logo = "", brandName = "Serenity Massage" }: NavbarProps) => {
+const Navbar = ({ logo = "", brandName = "MarleneWellness" }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 

@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import ServiceCard from "./ServiceCard";
 import TestimonialSlider from "./TestimonialSlider";
 import FloatingAnimation from "./FloatingAnimation";
+import { FaFacebook, FaInstagram, FaTelegram, FaTiktok } from "react-icons/fa";
 
 const Home = () => {
   // Smooth scrolling implementation
@@ -38,7 +39,8 @@ const Home = () => {
       description:
         "Targets deeper layers of muscle and connective tissue to release chronic tension. Our skilled therapists apply firm pressure to reach problem areas, providing relief from persistent pain and improving mobility. Perfect for those with chronic aches or recovering from injuries.",
       image:
-        "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
+        "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
+
       bookingLink: "#contact",
       isReversed: false,
     },
@@ -48,7 +50,7 @@ const Home = () => {
       description:
         "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while our therapist uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
       image:
-        "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
+        "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
       bookingLink: "#contact",
       isReversed: true,
     },
@@ -58,7 +60,7 @@ const Home = () => {
       description:
         "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Our therapists use their hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
       image:
-        "https://images.unsplash.com/photo-1537128535997-13b690849da9?w=800&q=80",
+        "/images/gallery/rita-mas1.jpg",
       bookingLink: "#contact",
       isReversed: false,
     },
@@ -74,11 +76,11 @@ const Home = () => {
     },
     {
       id: 5,
-      name: "Sports Massage",
+      name: "Sensual Massage",
       description:
-        "Designed for athletes and active individuals, this specialized massage focuses on areas of the body that are overused during physical activities. Our therapists use techniques that enhance performance, prevent injuries, and speed up recovery time. Perfect for before or after competitions or as part of your regular training regimen.",
+        "Explore the art of relaxation and heightened awareness with our sensual massage. This intimate experience is designed to awaken the senses, promoting a deep connection between mind and body. Through gentle, flowing strokes, Marlenewellness skilled therapist creates an atmosphere of tranquility and comfort",
       image:
-        "https://images.unsplash.com/photo-1573495804683-641191e042ea?w=800&q=80",
+        "/images/gallery/rita-sens.webp",
       bookingLink: "#contact",
       isReversed: false,
     },
@@ -179,21 +181,9 @@ const Home = () => {
         id="home"
         className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden"
       >
-        <div className="absolute inset-0 z-0">
-          <video
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-full object-cover opacity-20"
-          >
-            <source
-              src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761"
-              type="video/mp4"
-            />
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <div
+          className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80')] bg-cover bg-center opacity-60 bg-fixed"
+        ></div>
         <div className="container mx-auto z-10 text-center">
           <motion.h1
             className="text-4xl md:text-6xl font-bold mb-6 text-[#3a5a40]"
@@ -201,16 +191,15 @@ const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            Relax. Restore. Rejuvenate.
+            WELCOME TO MarleneWellness
           </motion.h1>
           <motion.p
-            className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-gray-700"
+            className="mb-6 text-gray-700 leading-relaxed "
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Experience the healing power of touch with our holistic massage
-            therapy approach.
+            MarleneWellness anticipates the needs and desires of  guests, delights each sense with natural ingredients, and enhances centuries old treatments to provide a unique spa experience. <br/>MarleneWellness is committed to quality, comfort and environment.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -266,27 +255,24 @@ const Home = () => {
               transition={{ duration: 0.6, delay: 0.2 }}
             >
               <h3 className="text-2xl font-semibold mb-4 text-[#588157]">
-                My Journey
+                MY HISTORY
               </h3>
               <p className="mb-6 text-gray-700 leading-relaxed">
-                With over 10 years of experience in therapeutic massage, I've
-                dedicated my career to helping people find relief from pain and
-                stress through the healing power of touch.
-              </p>
-              <p className="mb-6 text-gray-700 leading-relaxed">
-                After graduating from the Pacific College of Health and Science
-                with honors, I continued my education with specialized training
-                in various massage modalities including deep tissue, Swedish,
-                hot stone, and Thai massage techniques.
+              At Marlenewellness, I embrace the ancient belief that beauty, health, and spirit are inseparable, and I dedicate myself to nurturing the complete well-being of every guest. Each experience is thoughtfully designed in a peaceful environment, tailored to rejuvenate and revitalize your body, mind, and spirit. I offer a variety of treatments, using only the finest products like Payot, L’Oreal, OPI, and more, ensuring every service is personalized to meet your unique needs and preferences.
               </p>
               <h3 className="text-2xl font-semibold mb-4 text-[#588157]">
-                My Mission
+                MY PHILOSOPHY
+              </h3>
+              <p className="mb-6 text-gray-700 leading-relaxed">
+              At Marlenewellness, I am dedicated to anticipating your every need and desire, blending natural ingredients with time-honored treatments to create a spa experience that is truly unique. My commitment to quality, comfort, and sustainability shines through in every service, carefully crafted to pamper, heal, nourish, and rejuvenate. Since 1993, I have been guiding guests on their wellness journey, starting in the Dominican Republic and now expanding my services to new destinations, including Mexico, Jamaica, and beyond.
+              </p>
+              <h3 className="text-2xl font-semibold mb-4 text-[#588157]">
+                MY MISSION
               </h3>
               <p className="text-gray-700 leading-relaxed">
-                My approach is holistic and client-centered. I believe in
-                treating not just the symptoms but addressing the root causes of
-                tension and discomfort. Every session is customized to meet your
-                specific needs and goals.
+              At Marlenewellness, my goal is to create authentic experiences that provide complete relaxation and rejuvenation. My spa offers a personalized and serene environment, designed to pamper, heal, and revitalize. Every treatment is tailored to your needs, using high-quality products and techniques that balance beauty, health, and spirit.<br/>
+              
+              Guided by four core values—respect, honesty, creativity, and personal recognition—Marlenewellness ensures that every guest enjoys an exceptional and harmonious experience.
               </p>
             </motion.div>
           </div>
@@ -337,12 +323,12 @@ const Home = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Our Gallery
+            My Gallery
           </motion.h2>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             {/* Image 1 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md h-56"
+              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -350,25 +336,27 @@ const Home = () => {
               whileHover={{ scale: 1.03 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=800&q=80"
+                src="/images/gallery/marwell1.jpg"
                 alt="Massage therapy room"
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-fit transition-transform duration-500 hover:scale-110"
               />
             </motion.div>
 
             {/* Video 1 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md h-56"
+              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
               <video
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fit"
+                style={{ objectFit: 'cover' }}
                 loop
                 muted
                 playsInline
+                autoPlay
                 onMouseEnter={(e) => e.currentTarget.play()}
                 onMouseLeave={(e) => {
                   e.currentTarget.pause();
@@ -376,7 +364,7 @@ const Home = () => {
                 }}
               >
                 <source
-                  src="https://player.vimeo.com/external/394562214.sd.mp4?s=ff4f8a6f9077f7bffc7afb2d0f1fa97d7e5c9b47&profile_id=139&oauth2_token_id=57447761"
+                  src="/videos/gallery/marwell-vid1.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -385,7 +373,7 @@ const Home = () => {
 
             {/* Image 2 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md h-56"
+              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -393,41 +381,27 @@ const Home = () => {
               whileHover={{ scale: 1.03 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1600334089648-b0d2d3ef6844?w=800&q=80"
+                src="/images/gallery/marwell2.jpg"
                 alt="Massage oils and stones"
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
-              />
-            </motion.div>
-
-            {/* Image 3 */}
-            <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md h-56"
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.3 }}
-              whileHover={{ scale: 1.03 }}
-            >
-              <img
-                src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&q=80"
-                alt="Spa treatment"
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-fit transition-transform duration-500 hover:scale-110"
               />
             </motion.div>
 
             {/* Video 2 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md h-56"
+              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <video
-                className="w-full h-full object-cover"
+                className="w-full h-full object-fit"
+                style={{ objectFit: 'cover' }}
                 loop
                 muted
                 playsInline
+                autoPlay
                 onMouseEnter={(e) => e.currentTarget.play()}
                 onMouseLeave={(e) => {
                   e.currentTarget.pause();
@@ -435,7 +409,7 @@ const Home = () => {
                 }}
               >
                 <source
-                  src="https://player.vimeo.com/external/371845084.sd.mp4?s=25f0c58d9b6851a12b4f82a8a5b7b2f1e405b58e&profile_id=139&oauth2_token_id=57447761"
+                  src="/videos/gallery/marwell-vid2.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -444,7 +418,7 @@ const Home = () => {
 
             {/* Image 4 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md h-56"
+              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -452,9 +426,9 @@ const Home = () => {
               whileHover={{ scale: 1.03 }}
             >
               <img
-                src="https://images.unsplash.com/photo-1611073615830-9f76b675a71c?w=800&q=80"
+                src="/images/gallery/marwell4.jpg"
                 alt="Relaxation area"
-                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-fit transition-transform duration-500 hover:scale-110"
               />
             </motion.div>
           </div>
@@ -545,80 +519,39 @@ const Home = () => {
                   </svg>
                   <span>info@relaxmassage.com</span>
                 </p>
-                <p className="flex items-center">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 mr-3 text-[#588157]"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                    />
-                  </svg>
-                  <span>123 Serenity Lane, Relaxville, CA 90210</span>
-                </p>
+                
               </div>
+              
               <div className="mt-8">
                 <h4 className="text-xl font-semibold mb-4 text-[#588157]">
-                  Business Hours
-                </h4>
-                <ul className="space-y-2">
-                  <li className="flex justify-between">
-                    <span>Monday - Friday:</span>
-                    <span>9:00 AM - 7:00 PM</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Saturday:</span>
-                    <span>10:00 AM - 5:00 PM</span>
-                  </li>
-                  <li className="flex justify-between">
-                    <span>Sunday:</span>
-                    <span>Closed</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="mt-8">
-                <h4 className="text-xl font-semibold mb-4 text-[#588157]">
-                  Follow Us
+                  Follow Me
                 </h4>
                 <div className="flex space-x-4">
-                  <a
+                <a
                     href="#"
                     className="text-[#588157] hover:text-[#3a5a40] transition-colors"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
-                    </svg>
+                    <FaFacebook className="h-6 w-6" />
                   </a>
                   <a
                     href="#"
                     className="text-[#588157] hover:text-[#3a5a40] transition-colors"
                   >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-6 w-6"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
-                    </svg>
+                    <FaTelegram className="h-6 w-6" />
                   </a>
+                  <a
+                    href="#"
+                    className="text-[#588157] hover:text-[#3a5a40] transition-colors"
+                  >
+                    <FaTiktok className="h-6 w-6" />
+                  </a>
+                  <a
+                    href="#"
+                    className="text-[#588157] hover:text-[#3a5a40] transition-colors"
+                  >
+                    <FaInstagram className="h-6 w-6" />
+                  </a>
+                  
                 </div>
               </div>
             </motion.div>
