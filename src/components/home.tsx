@@ -177,7 +177,7 @@ const Home = () => {
         ></div>
         <div className="container mx-auto z-10 text-center">
           <motion.h1
-            className="text-2xl md:text-4xl font-extrabold mb-4 text-[#3a5a40] tracking-wide text-center md:text-left" // Adjusted size, weight, and alignment for better visual appeal
+            className="text-3xl md:text-4xl font-extrabold mb-4 text-[#3a5a40] tracking-wide text-center md:text-left" // Adjusted size, weight, and alignment for better visual appeal
             initial={{ opacity: 0, y: -20 }} // Added animation for entrance
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
