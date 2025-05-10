@@ -37,7 +37,7 @@ const Home = () => {
       id: 1,
       name: "Deep Tissue Massage",
       description:
-        "Targets deeper layers of muscle and connective tissue to release chronic tension. Our skilled therapists apply firm pressure to reach problem areas, providing relief from persistent pain and improving mobility. Perfect for those with chronic aches or recovering from injuries.",
+        "Targets deeper layers of muscle and connective tissue to release chronic tension. Marlenewellness therapy applies firm pressure to reach problem areas, providing relief from persistent pain and improving mobility. Perfect for those with chronic aches or recovering from injuries.",
       image:
         "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
 
@@ -48,7 +48,7 @@ const Home = () => {
       id: 2,
       name: "Heated Stone Massage",
       description:
-        "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while our therapist uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
+        "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while Marlenewellness therapy uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
       image:
         "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
       bookingLink: "https://form.jotform.com/251290753589568",
@@ -58,7 +58,7 @@ const Home = () => {
       id: 3,
       name: "Thai Massage",
       description:
-        "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Our therapists use their hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
+        "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Marlenewellness therapy use hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
       image:
         "/images/gallery/rita-mas1.jpg",
       bookingLink: "https://form.jotform.com/251290753589568",
@@ -70,7 +70,7 @@ const Home = () => {
       description:
         "This traditional therapy uses special cups to create suction on your skin, increasing blood flow and loosening fascia. The negative pressure helps release tight muscles, reduce inflammation, and promote healing. Many clients report relief from chronic pain and improved recovery after physical activity.",
       image:
-        "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800&q=80",
+        "/images/gallery/rita-cup2.jpg",
       bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
@@ -88,9 +88,9 @@ const Home = () => {
       id: 6,
       name: "Geriatric Massage",
       description:
-        "Gentle techniques designed specifically for the elderly to improve circulation and mobility. Our therapists use light pressure and shorter sessions to accommodate sensitive skin and joints. Regular sessions can help reduce pain, improve range of motion, and enhance overall quality of life.",
+        "Gentle techniques designed specifically for the elderly to improve circulation and mobility. Marlenewellness therapy uses light pressure and shorter sessions to accommodate sensitive skin and joints. Regular sessions can help reduce pain, improve range of motion, and enhance overall quality of life.",
       image:
-        "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
+        "/images/gallery/rita-geria.jpg",
       bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
@@ -98,7 +98,7 @@ const Home = () => {
       id: 7,
       name: "Shiatsu Massage",
       description:
-        "This Japanese technique uses rhythmic pressure on specific points along the body's meridians. Our therapists apply pressure using their fingers, palms, and thumbs to balance your energy flow and promote natural healing. Experience reduced stress, improved circulation, and a deep sense of relaxation.",
+        "This Japanese technique uses rhythmic pressure on specific points along the body's meridians. Marlenewellness therapy applies pressure using their fingers, palms, and thumbs to balance your energy flow and promote natural healing. Experience reduced stress, improved circulation, and a deep sense of relaxation.",
       image:
         "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
       bookingLink: "https://form.jotform.com/251290753589568",
@@ -110,7 +110,7 @@ const Home = () => {
       description:
         "Our most popular massage combines long, flowing strokes with kneading and circular movements. This classic technique improves circulation, eases muscle tension, and induces deep relaxation. Perfect for first-time clients or those seeking a gentle yet effective full-body experience.",
       image:
-        "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
+        "/images/gallery/rita-swed.webp",
       bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
@@ -118,9 +118,9 @@ const Home = () => {
       id: 9,
       name: "Aromatherapy Massage",
       description:
-        "Enhance your massage experience with the therapeutic benefits of essential oils. Our therapists blend oils specifically chosen for your needs, whether for relaxation, energy, or immune support. The combination of massage and aromatherapy creates a multi-sensory experience that nurtures both body and mind.",
+        "Enhance your massage experience with the therapeutic benefits of essential oils. Marlenewellness therapy blend oils specifically chosen for your needs, whether for relaxation, energy, or immune support. The combination of massage and aromatherapy creates a multi-sensory experience that nurtures both body and mind.",
       image:
-        "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?w=800&q=80",
+        "/images/gallery/aroma-mass.webp",
       bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: false,
     },
@@ -170,27 +170,28 @@ const Home = () => {
       {/* Hero Section */}
       <section
         id="home"
-        className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden"
+        className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden mt-20"
       >
         <div
-          className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80')] bg-cover bg-center opacity-60 bg-fixed"
+          className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80')] bg-cover bg-center opacity-60 bg-scroll"
         ></div>
         <div className="container mx-auto z-10 text-center">
           <motion.h1
-            className="text-4xl md:text-6xl font-bold mb-6 text-[#3a5a40]"
-            initial={{ opacity: 0, y: 20 }}
+            className="text-2xl md:text-4xl font-extrabold mb-4 text-[#3a5a40] tracking-wide text-center md:text-left" // Adjusted size, weight, and alignment for better visual appeal
+            initial={{ opacity: 0, y: -20 }} // Added animation for entrance
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 1, ease: "easeOut" }}
           >
-            WELCOME TO MarleneWellness
+            Welcome to <span className="text-[#588157]">MarleneWellness</span>
           </motion.h1>
           <motion.p
-            className="mb-6 text-gray-700 leading-relaxed "
-            initial={{ opacity: 0, y: 20 }}
+            className="mb-6 text-gray-700 leading-relaxed text-lg md:text-xl text-center md:text-left" // Adjusted size, alignment, and spacing for better visual appeal
+            initial={{ opacity: 0, y: 20 }} // Added animation for entrance
             animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
+            transition={{ duration: 1, ease: "easeOut" }}
           >
-            MarleneWellness anticipates the needs and desires of  guests, delights each sense with natural ingredients, and enhances centuries old treatments to provide a unique spa experience. <br/>MarleneWellness is committed to quality, comfort and environment.
+            MarleneWellness anticipates the needs and desires of guests, delights each sense with natural ingredients, and enhances centuries-old treatments to provide a unique spa experience. <br />
+            MarleneWellness is committed to quality, comfort, and environment.
           </motion.p>
           <motion.div
             className="flex flex-col sm:flex-row gap-4 justify-center"
@@ -316,10 +317,10 @@ const Home = () => {
           >
             Behind the Scenes
           </motion.h2>
-          <div className="flex flex-wrap justify-center gap-4">
+          <div className="grid grid-cols-3 gap-4">
             {/* Image 1 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-square"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -329,13 +330,13 @@ const Home = () => {
               <img
                 src="/images/gallery/marwell1.jpg"
                 alt="Massage therapy room"
-                className="w-full h-full object-fit transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
             </motion.div>
 
             {/* Video 1 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-square"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -364,7 +365,7 @@ const Home = () => {
 
             {/* Image 2 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-square"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -374,20 +375,20 @@ const Home = () => {
               <img
                 src="/images/gallery/marwell2.jpg"
                 alt="Massage oils and stones"
-                className="w-full h-full object-fit transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
             </motion.div>
 
             {/* Video 2 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-square"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
               <video
-                className="w-full h-full object-fit"
+                className="w-full h-full object-cover"
                 style={{ objectFit: 'cover' }}
                 loop
                 muted
@@ -409,7 +410,7 @@ const Home = () => {
 
             {/* Image 4 */}
             <motion.div
-              className="relative overflow-hidden rounded-lg shadow-md w-48 h-48"
+              className="relative overflow-hidden rounded-lg shadow-md aspect-square"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
@@ -419,7 +420,23 @@ const Home = () => {
               <img
                 src="/images/gallery/marwell4.jpg"
                 alt="Relaxation area"
-                className="w-full h-full object-fit transition-transform duration-500 hover:scale-110"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+              />
+            </motion.div>
+
+            {/* Image 5 */}
+            <motion.div
+              className="relative overflow-hidden rounded-lg shadow-md aspect-square"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.5 }}
+              whileHover={{ scale: 1.03 }}
+            >
+              <img
+                src="/images/gallery/marwell3.jpg"
+                alt="Relaxation area"
+                className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
               />
             </motion.div>
           </div>

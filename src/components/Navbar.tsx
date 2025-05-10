@@ -53,14 +53,14 @@ const Navbar = ({ logo = "", brandName = "MarleneWellness" }: NavbarProps) => {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo/Brand */}
         <motion.div
-          className="flex items-center"
+          className="flex items-center justify-start" // Added justify-start to move the brand name/logo to the left
           whileHover={{ scale: 1.05 }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
         >
           {logo ? (
             <img src={logo} alt={brandName} className="h-10" />
           ) : (
-            <span className="text-2xl font-semibold text-teal-700">
+            <span className="text-lg font-bold text-teal-700">
               {brandName}
             </span>
           )}
