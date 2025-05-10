@@ -131,31 +131,31 @@ const Home = () => {
   const testimonials = [
     {
       id: 1,
-      name: "Sarah Johnson",
+      name: "Michael Brown",
       text: "The deep tissue massage was exactly what I needed. My chronic back pain has significantly improved after just three sessions!",
       rating: 5,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah",
+      avatar: "/images/gallery/man-head2.avif",
     },
     {
       id: 2,
       name: "Michael Chen",
       text: "I've tried many massage therapists over the years, but this experience was truly exceptional. The attention to detail and personalized approach made all the difference.",
       rating: 5,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael",
+      avatar: "/images/gallery/man-head1.webp",
     },
     {
       id: 3,
-      name: "Emily Rodriguez",
+      name: "Robert Davis",
       text: "The hot stone massage was incredibly relaxing. The ambiance of the space combined with the therapist's expertise created the perfect escape from my busy life.",
-      rating: 4,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=emily",
+      rating: 5,
+      avatar: "/images/gallery/man-head4.webp",
     },
     {
       id: 4,
       name: "David Thompson",
       text: "As someone with sports injuries, I was skeptical about massage therapy. But after my first session, I was convinced. My recovery time has improved dramatically.",
       rating: 5,
-      avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=david",
+      avatar: "/images/gallery/man-head3.webp",
     },
   ];
 
