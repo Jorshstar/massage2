@@ -41,7 +41,7 @@ const Home = () => {
       image:
         "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80",
 
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: false,
     },
     {
@@ -51,7 +51,7 @@ const Home = () => {
         "Experience deep relaxation as smooth, heated stones are placed on key points of your body. The warmth penetrates muscles to release tension while our therapist uses the stones to apply gentle pressure. This therapeutic treatment improves circulation and promotes a profound sense of well-being.",
       image:
         "https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
     {
@@ -61,7 +61,7 @@ const Home = () => {
         "This ancient healing system combines acupressure, Indian Ayurvedic principles, and assisted yoga postures. Our therapists use their hands, knees, legs, and feet to move you into a series of stretches while applying pressure along energy lines. Experience improved flexibility, circulation, and energy levels.",
       image:
         "/images/gallery/rita-mas1.jpg",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: false,
     },
     {
@@ -71,7 +71,7 @@ const Home = () => {
         "This traditional therapy uses special cups to create suction on your skin, increasing blood flow and loosening fascia. The negative pressure helps release tight muscles, reduce inflammation, and promote healing. Many clients report relief from chronic pain and improved recovery after physical activity.",
       image:
         "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
     {
@@ -81,7 +81,7 @@ const Home = () => {
         "Explore the art of relaxation and heightened awareness with our sensual massage. This intimate experience is designed to awaken the senses, promoting a deep connection between mind and body. Through gentle, flowing strokes, Marlenewellness skilled therapist creates an atmosphere of tranquility and comfort",
       image:
         "/images/gallery/rita-sens.webp",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: false,
     },
     {
@@ -91,7 +91,7 @@ const Home = () => {
         "Gentle techniques designed specifically for the elderly to improve circulation and mobility. Our therapists use light pressure and shorter sessions to accommodate sensitive skin and joints. Regular sessions can help reduce pain, improve range of motion, and enhance overall quality of life.",
       image:
         "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
     {
@@ -101,7 +101,7 @@ const Home = () => {
         "This Japanese technique uses rhythmic pressure on specific points along the body's meridians. Our therapists apply pressure using their fingers, palms, and thumbs to balance your energy flow and promote natural healing. Experience reduced stress, improved circulation, and a deep sense of relaxation.",
       image:
         "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: false,
     },
     {
@@ -111,7 +111,7 @@ const Home = () => {
         "Our most popular massage combines long, flowing strokes with kneading and circular movements. This classic technique improves circulation, eases muscle tension, and induces deep relaxation. Perfect for first-time clients or those seeking a gentle yet effective full-body experience.",
       image:
         "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: true,
     },
     {
@@ -121,7 +121,7 @@ const Home = () => {
         "Enhance your massage experience with the therapeutic benefits of essential oils. Our therapists blend oils specifically chosen for your needs, whether for relaxation, energy, or immune support. The combination of massage and aromatherapy creates a multi-sensory experience that nurtures both body and mind.",
       image:
         "https://images.unsplash.com/photo-1519415387722-a1c3bbef716c?w=800&q=80",
-      bookingLink: "#contact",
+      bookingLink: "https://form.jotform.com/251290753589568",
       isReversed: false,
     },
     
